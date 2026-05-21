@@ -1,0 +1,13 @@
+{
+  "name": "ollive-task",
+  "private": true,
+  "workspaces": [
+    "sdk",
+    "services/chat",
+    "services/ingestion"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "migrate": "node scripts/migrate.js"
+  }
+}
